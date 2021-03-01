@@ -1,0 +1,83 @@
+/* Global Properties */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #18224b;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+  border: 2px solid transparent;
+}
+
+/* .topnav-right {
+  float: right;
+} */
+
+.navigation-link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ffd460;
+  transition: 0.5s ease;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.main-container {
+  min-height: 100vh;
+  padding-top: 3rem;
+}
+
+.main_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_row h1 {
+  font-size: 5rem;
+}
+
+.main_row img {
+  width: auto;
+  height: 50rem;
+
+}
+
+
+#about {
+  background: #3f3e77;
+  border-radius: 1rem;
+}
+
+.card {
+  border-bottom: 7px solid #ffd460;
+  background-color: #3f3e77;
+  border-radius: 0.5rem;
+}
+
+#social-media{
+  background: #3f3e77;
+  border-radius: 1rem;
+}
+
+.media_link{
+  padding: 1rem;
+  max-width: 15rem;
+  margin-left: 1rem;
+  border: 5px solid #ffd460;
+  border-radius: 0.5rem;
+}
+
+.social-media-link:hover{
+  text-decoration: none;
+  background-color: #ffd460;
+  transition: 0.5s;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  color: black;
+}
